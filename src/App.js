@@ -25,17 +25,17 @@ export default function App() {
         {
           index: true,
           element: (
-            
+         <ProtevtedRoutes>
               <Home />
-            
+            </ProtevtedRoutes>
           ),
         },
         {
           path: "home",
           element: (
-            
+ <ProtevtedRoutes>
               <Home />
-           
+            </ProtevtedRoutes>
           ),
         },
         {
